@@ -1,10 +1,10 @@
-/* @font-face {
+@font-face {
     font-family: 'norsebold';
     src: url('norse-bold-webfont.woff2') format('woff2'),
          url('norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
+}
 
 * {
     box-sizing: border-box;
@@ -35,7 +35,7 @@ img {
 
 .brand-sidebar {
     height: var(--sidebar-height);
-    background-color: black;
+    background-color: black; /*rgba(0, 0, 0, 0.5);*/
     opacity: .5;
     display: flex;
     justify-content: center;
@@ -46,9 +46,12 @@ img {
     height: var(--logo-height);
 }
 
-/* .brand-sidebar .title {
-    font-family: ;
-} */
+.brand-sidebar .name {
+    font-family: 'norsebold';
+    color: white;
+    font-size: 100px;
+    opacity: 1;
+}
 
 .right-panel {
     flex: 2;
