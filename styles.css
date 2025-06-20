@@ -34,7 +34,7 @@ img {
 }
 
 .brand-sidebar {
-    /* height: var(--sidebar-height); */
+    height: var(--sidebar-height);
     background-color: black;
     opacity: .5;
     /* display: flex; */
