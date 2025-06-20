@@ -55,6 +55,13 @@ img {
     font-size: 100px;
 }
 
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
 .right-panel {
     flex: 2;
 }
