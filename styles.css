@@ -85,4 +85,15 @@ footer a {
 
 form {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
 }
