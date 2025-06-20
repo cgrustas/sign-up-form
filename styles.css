@@ -31,6 +31,7 @@ img {
 .left-panel {
     flex: 1;
     background: url('./images/background.jpg') center/cover no-repeat;
+    position: relative;
 }
 
 .brand-sidebar {
@@ -39,6 +40,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 200px;
+    width: 100%;
 }
 
 .brand-sidebar .logo {
