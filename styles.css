@@ -70,4 +70,10 @@ footer a {
 
 .right-panel {
     flex: 2;
+    margin: 48px;
 }
+
+/* .headline {
+    font-size: 1.25rem;
+    font-weight: bold;
+} */
