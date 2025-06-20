@@ -1,5 +1,18 @@
+/* @font-face {
+    font-family: 'norsebold';
+    src: url('norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --sidebar-height: 200px;
+    --logo-height: 80%;
 }
 
 body {
@@ -20,14 +33,21 @@ img {
     background: url('./images/background.jpg') center/cover no-repeat;
 }
 
+.brand-sidebar {
+    /* height: var(--sidebar-height); */
+    background-color: black;
+    opacity: .5;
+    /* display: flex; */
+}
+
+.brand-sidebar .logo {
+    height: var(--logo-height);
+}
+
+/* .brand-sidebar .title {
+    font-family: ;
+} */
+
 .right-panel {
     flex: 2;
 }
-
-/* label,
-input,
-button,
-textarea,
-select {
-    font: inherit;
-} */
