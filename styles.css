@@ -72,17 +72,13 @@ footer a {
 .right-panel {
     flex: 2;
 }
-/* 
-.headline,
-form,
-button,
-button + p {
-    margin-left: 48px;
-}
- */
 
 .headline {
     font-size: 1.25rem;
     font-weight: bold;
     margin-right: 300px;
+}
+
+form {
+    background-color: white;
 }
