@@ -120,6 +120,10 @@ input {
     height: 2rem;
     width: 15rem;
     appearance: none;
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid crimson;
 }
