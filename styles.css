@@ -124,6 +124,6 @@ input {
     border-radius: 5px;
 }
 
-/* input:invalid {
+input:invalid {
     border: 1px solid crimson;
-} */
+}
