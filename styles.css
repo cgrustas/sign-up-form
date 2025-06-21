@@ -123,6 +123,7 @@ input {
     appearance: none;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
+    padding: 0 8px;
 }
 
 input:invalid {
