@@ -147,6 +147,12 @@ button {
     box-shadow: 1px 1px 4px grey;
 }
 
-/* p {
+p {
     margin: 0 36px;
-} */
+}
+
+p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #596D48;
+}
