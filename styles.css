@@ -87,11 +87,18 @@ form {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 36px;
+    padding: 36px 0;
 }
 
 h2 {
     margin: 0;
     padding: 0;
+}
+
+form > * {
+    margin: 0 36px;
 }
 
 .form-row {
