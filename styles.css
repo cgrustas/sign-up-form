@@ -103,6 +103,7 @@ form > * {
 
 .form-row {
     display: flex;
+    gap: 64px;
 }
 
 .form-group {
