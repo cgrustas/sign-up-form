@@ -125,9 +125,11 @@ input {
 }
 
 input:invalid {
-    border: 1px solid crimson;
+    border-color: crimson;
 }
 
 input:focus {
     outline: none;
+    border-color: blue; 
+    box-shadow: 1px 1px 4px grey;
 }
