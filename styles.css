@@ -80,7 +80,7 @@ footer a {
     font-size: 1.25rem;
     font-weight: bold;
     margin-right: 300px;
-    padding: 36px;
+    padding: 36px 0;
 }
 
 form {
@@ -90,7 +90,6 @@ form {
     justify-content: space-between;
     gap: 36px;
     padding: 36px 0;
-    margin-bottom: 32px;
     box-shadow: 0px 4px 8px lightgrey;
 }
 
@@ -135,3 +134,19 @@ input:focus {
     border-color: blue; 
     box-shadow: 1px 1px 4px grey;
 }
+
+button {
+    appearance: none;
+    align-self: flex-start;
+    margin: 36px;
+    padding: 8px 32px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px grey;
+}
+
+/* p {
+    margin: 0 36px;
+} */
